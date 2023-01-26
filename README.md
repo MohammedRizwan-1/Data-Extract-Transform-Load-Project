@@ -2,7 +2,7 @@
 
 # Introduction 
 
-This Projectm involved us focusing on two different sets of data comprising off Crowdfunding Data and Contacts Information. These files were in the form of CSV Files. The goal of the project was to use Extract, Load and Transform processes to consolidate information and restructure to desired data relationships in the form of new DataFrames/Tables.
+This Project involved us focusing on two different sets of data comprising off Crowdfunding Data and Contacts Information. These files were in the form of CSV Files. The goal of the project was to use Extract, Load and Transform processes to consolidate information and restructure to desired data relationships in the form of new DataFrames/Tables.
 
 # ***Files***
 ## *README*  
@@ -46,3 +46,20 @@ To better present the created data the columns were split and then created into 
 
 ## Load
 
+The Load aspect of this project involved using the DataFrames CSV's created to be loaded into PostgreSQL, a relational database was chosen over non-relational as the team felt it would be better to visualise, create and analyse the realtionship between the datasets as it was a small dataset in which PostgreSQL could easily run the queries.
+
+
+This resulted in the following ERD being Produced based on the relations to from the Table Queries generated.
+
+
+
+# ***Comments***
+
+* The interesting aspects of this project was the restructure of data in which it could be extracted and tranformed to be better utilised for other purposes, it was made evident in later stages how relations between the tables and data became apparant. 
+
+The Authors of this Project:
+
+Mohammed Rizwan Nawaz.
+Mariama Doumbouya Diallo.
+Dalitso Sandiyang'ane.
+James Hand.
