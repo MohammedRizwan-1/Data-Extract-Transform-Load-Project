@@ -49,11 +49,14 @@ To better present the created data the columns were split and then created into 
 The Load aspect of this project involved using the DataFrames CSV's created to be loaded into PostgreSQL, a relational database was chosen over non-relational as the team felt it would be better to visualise, create and analyse the realtionship between the datasets as it was a small dataset in which PostgreSQL could easily run the queries.
 
 
+
 This resulted in the following ERD being Produced based on the relations to from the Table Queries generated.
 
-
+![Alt text](ERD_Diagram/ERD.png)
 
 # ***Comments***
+
+* The ETL mini project, demonstrated a clear ETL pipline using Python, Pandas, Python Dict Methods and Regex Methods utilised efficiently to extract and transform the data to which ouput CSV's we're utilised to create a Table Schema and ERD.
 
 * The interesting aspects of this project was the restructure of data in which it could be extracted and tranformed to be better utilised for other purposes, it was made evident in later stages how relations between the tables and data became apparant. 
 
