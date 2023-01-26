@@ -1,4 +1,5 @@
 # Data-Extract-Transform-Load-Project
+![Alt text](Images/ETL%20Image.png)
 
 # Introduction 
 
@@ -24,7 +25,7 @@ This involved extracting the two CSV files and examining both files to see what 
 
 ## Transform
 Many of the columns contained specific pieces of information we required to be in seperate DataFrames to which we need to tranform and concatinate into specific Dataframes:
-image.png
+
 Category and Subcategory DF's were required from the initial crowdfunding csv.
 
 ![Alt text](Images/category_DF.png)
@@ -38,6 +39,7 @@ Data for the Campaign DF also required to be transformed into different forms an
 
 
 The contacts CSV was extracted and then transformed in dictionary using JSON methods to extract information from each row to reorganise the data as shown.
+
 ![Alt text](Images/converitng%20to%20json%20and%20creating%20dict%20values.png)
 
 To better present the created data the columns were split and then created into a clearer output DF from the Dictionairy List created earlier.
