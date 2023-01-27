@@ -56,6 +56,12 @@ This resulted in the following ERD being Produced based on the relations to from
 
 ![Alt text](ERD_Diagram/ERD.png)
 
+After the CSVs were imported to the created tables, we queried the database to check they had properly loaded. This resulted in the following:
+
+![Alt text](Images/db_campaigns.png)
+
+![Alt text](Images/db_contacts.png)
+
 # ***Comments***
 
 * The ETL mini project, demonstrated a clear ETL pipline using Python, Pandas, Python Dict Methods and Regex Methods utilised efficiently to extract and transform the data to which ouput CSV's we're utilised to create a Table Schema and ERD.
@@ -67,4 +73,4 @@ The Authors of this Project:
 Mohammed Rizwan Nawaz.
 Mariama Doumbouya Diallo.
 Dalitso Sandiyang'ane.
-James Hand.
+James Hands.
